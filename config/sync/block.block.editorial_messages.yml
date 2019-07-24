@@ -1,0 +1,22 @@
+uuid: f00766c7-31af-403e-abcf-96172ac7a5ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - editorial
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: editorial_messages
+theme: editorial
+region: content
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

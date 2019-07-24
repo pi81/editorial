@@ -1,0 +1,15 @@
+{{ breakpoint }}
+{% set iconClasses = content.field_icon_classes.0 %}
+
+<article{{ attributes }}>
+  <span class="{{ iconClasses }}"></span>
+  <div class="content">
+    {{ title_prefix }}
+    {% if label %}
+      <h3{{ title_attributes }}>
+        {{ label }}
+      </h3>
+    {% endif %}
+    {{ content|without('field_icon_classes') }}
+  </div>
+</article>

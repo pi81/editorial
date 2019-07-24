@@ -1,0 +1,31 @@
+<div id="wrapper">
+  {{ page.primary_menu }}
+
+
+  <main id='main' role="main">
+    <div class="inner">
+      <header id="header" role="banner">
+        {{ page.header }}
+      </header>
+
+     <section id="banner">
+          {{ page.content }}
+          {{ page.aside }}
+     </section>
+      {% if page.bottom %}
+        {{ page.bottom}}
+      {% endif %}
+    </div>
+  </main>
+
+  {% if page.sidebar %}
+      {{ page.sidebar}}
+  {% endif %}
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>

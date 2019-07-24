@@ -1,0 +1,7 @@
+{% extends "block.html.twig" %}
+
+{% block content %}
+  {% if site_name %}
+    <a class="logo" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home"><strong >{{ site_name }}</strong> by HTML5 UP</a>
+  {% endif %}
+{% endblock %}

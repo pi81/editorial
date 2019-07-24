@@ -1,0 +1,5 @@
+{% set link = items.0.content |without('#url_title') %}
+{% if items %}
+    {{ link }}
+{% endif %}
+

@@ -1,0 +1,22 @@
+uuid: 4145164e-e804-4c1f-94b5-8a931817be1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - editorial
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: editorial_content
+theme: editorial
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

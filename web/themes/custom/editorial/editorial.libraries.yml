@@ -1,0 +1,14 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      lib/fonts/webfonts/fontawesome-all.min.css: {}
+      dist/css/main.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    lib/js/breakpoints.min.js: {}
+    lib/js/browser.min.js: {}
+    lib/js/jquery.min.js: {}
+    dist/js/main.js: {}

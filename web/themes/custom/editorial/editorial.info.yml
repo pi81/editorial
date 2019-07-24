@@ -1,0 +1,17 @@
+name: Editorial
+type: theme
+description: 'Drupal theme of Editorial template by HTML5 UP'
+package: Other
+core: 8.x
+libraries:
+  - editorial/global-css
+  - editorial/global-js
+
+base theme: false
+
+regions:
+  header: Header
+  content: Content
+  bottom: Bottom
+  sidebar: Sidebar
+  aside: Aside

@@ -1,0 +1,16 @@
+<article{{ attributes }}>
+  <a href="{{ url }}" rel="bookmark">{{ content.field_image }}</a>
+  {{ title_prefix }}
+  {% if label  %}
+    <h2{{ title_attributes }}>
+      {{ label }}
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  <div{{ content_attributes }}>
+    {{ content.body }}
+    <a href="{{ url }}" rel="bookmark" class="button">{{ 'More'|trans }}</a>
+  </div>
+
+</article>
