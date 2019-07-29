@@ -4,8 +4,10 @@ description: 'Drupal theme of Editorial template by HTML5 UP'
 package: Other
 core: 8.x
 libraries:
-  - editorial/global-css
-  - editorial/global-js
+  - editorial/breakpoints
+  - editorial/browser
+  - editorial/fontawesome
+  - editorial/global
 
 base theme: false
 

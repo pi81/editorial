@@ -1,14 +1,28 @@
-global-css:
+breakpoints:
+  version: 1.0
+  js:
+    lib/js/breakpoints.min.js: {}
+
+browser:
+  version: 1.0
+  js:
+    lib/js/browser.min.js: {}
+
+fontawesome:
   version: VERSION
   css:
     theme:
       lib/fonts/webfonts/fontawesome-all.min.css: {}
-      dist/css/main.css: {}
 
-global-js:
+global:
   version: VERSION
+  css:
+    theme:
+      dist/css/main.css: {}
   js:
-    lib/js/breakpoints.min.js: {}
-    lib/js/browser.min.js: {}
-    lib/js/jquery.min.js: {}
     dist/js/main.js: {}
+  dependencies:
+    - core/jquery
+    - editorial/breakpoints
+    - editorial/browser
+    - editorial/fontawesome
