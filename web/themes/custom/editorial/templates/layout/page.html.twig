@@ -49,6 +49,10 @@
 
   {{ page.primary_menu }}
 
+  {% if page.sidebar %}
+    {{ page.sidebar}}
+  {% endif %}
+
 
   <main id='main' role="main">
     <div class="inner">
@@ -62,9 +66,6 @@
     </div>
   </main>
 
-  {% if page.sidebar %}
-      {{ page.sidebar}}
-  {% endif %}
 
   {% if page.footer %}
     <footer role="contentinfo">

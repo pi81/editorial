@@ -1,0 +1,48 @@
+/**
+ * Don't edit this file. Find all style at ./sass folder.
+ **/
+.wp-block-custom-hero-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.wp-block-custom-hero-block .column {
+  flex: 1;
+}
+
+.wp-block-custom-hero-block .icon {
+  text-align: center;
+}
+
+.wp-block-custom-hero-block .icon svg {
+  width: 120px;
+  height: 120px;
+}
+
+.wp-block-custom-hero-block .gb-hero-block {
+  width: 100%;
+  position: relative;
+}
+
+.wp-block-custom-hero-block .gb-hero-block__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wp-block-custom-hero-block .gb-hero-block__content {
+  position: relative;
+  margin: 0 auto;
+  z-index: 20;
+}
+
+.wp-block-custom-hero-block .gb-hero-block h1, .wp-block-custom-hero-block .gb-hero-block h2, .wp-block-custom-hero-block .gb-hero-block h3, .wp-block-custom-hero-block .gb-hero-block h4, .wp-block-custom-hero-block .gb-hero-block h5, .wp-block-custom-hero-block .gb-hero-block h6 {
+  line-height: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

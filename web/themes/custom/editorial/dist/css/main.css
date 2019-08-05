@@ -1610,7 +1610,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 button,
-.button {
+.button, .wp-block-button__link {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -1640,37 +1640,37 @@ button,
   input[type="reset"]:hover,
   input[type="button"]:hover,
   button:hover,
-  .button:hover {
+  .button:hover, .wp-block-button__link:hover {
     background-color: rgba(245, 106, 106, 0.05); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
-  .button:active {
+  .button:active, .wp-block-button__link:active {
     background-color: rgba(245, 106, 106, 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
   button.icon:before,
-  .button.icon:before {
+  .button.icon:before, .wp-block-button__link.icon:before {
     margin-right: 0.5em; }
   input[type="submit"].fit,
   input[type="reset"].fit,
   input[type="button"].fit,
   button.fit,
-  .button.fit {
+  .button.fit, .wp-block-button__link.fit {
     width: 100%; }
   input[type="submit"].small,
   input[type="reset"].small,
   input[type="button"].small,
   button.small,
-  .button.small {
+  .button.small, .wp-block-button__link.small {
     font-size: 0.6em; }
   input[type="submit"].large,
   input[type="reset"].large,
   input[type="button"].large,
   button.large,
-  .button.large {
+  .button.large, .wp-block-button__link.large {
     font-size: 1em;
     height: 3.65em;
     line-height: 3.65em; }
@@ -1678,7 +1678,7 @@ button,
   input[type="reset"].primary,
   input[type="button"].primary,
   button.primary,
-  .button.primary {
+  .button.primary, .wp-block-button__link.primary {
     background-color: #f56a6a;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1687,13 +1687,13 @@ button,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     button.primary:hover,
-    .button.primary:hover {
+    .button.primary:hover, .wp-block-button__link.primary:hover {
       background-color: #f67878; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
-    .button.primary:active {
+    .button.primary:active, .wp-block-button__link.primary:active {
       background-color: #f45c5c; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
@@ -1703,7 +1703,7 @@ button,
   button.disabled,
   button:disabled,
   .button.disabled,
-  .button:disabled {
+  .button:disabled, .wp-block-button__link.disabled, .wp-block-button__link:disabled {
     pointer-events: none;
     opacity: 0.25; }
 
@@ -1966,11 +1966,6 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -moz-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-          flex-direction: row-reverse;
   min-height: 100vh; }
 
 /* Main */
