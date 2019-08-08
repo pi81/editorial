@@ -1107,6 +1107,9 @@ hr {
             padding-top: 3em; } }
 
 /* Section/Article */
+section {
+  margin: 40px 0; }
+
 section.special, article.special {
   text-align: center; }
 

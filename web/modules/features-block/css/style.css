@@ -1,0 +1,64 @@
+/**
+ * Don't edit this file. Find all style at ./sass folder.
+ **/
+@media screen and (min-width: 768px) {
+  .wp-block-custom-features-block .gb-features-block {
+    display: grid;
+    grid-column-gap: 5%;
+  }
+}
+
+.wp-block-custom-features-block .gb-feature-block {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 6em;
+  margin: 3em 0;
+}
+
+.wp-block-custom-features-block .gb-feature-block .icon {
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3em;
+  width: 10em;
+  height: 10em;
+}
+
+.wp-block-custom-features-block .gb-feature-block .icon__wrapper {
+  position: relative;
+}
+
+.wp-block-custom-features-block .icon--placeholder {
+  background-image: url(../images/star.svg);
+}
+
+.wp-block-custom-features-block .icon-shape:before {
+  content: '';
+  border-radius: 0.25rem;
+  border: solid 2px rgba(210, 215, 217, 0.75);
+  display: block;
+  height: 7em;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 7em;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.wp-block-custom-features-block .icon-shape--diamond:before {
+  border-radius: 0.25rem;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.wp-block-custom-features-block .icon-shape--square:before {
+  transform: translate(-50%, -50%);
+}
+
+.wp-block-custom-features-block .icon-shape--circle:before {
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

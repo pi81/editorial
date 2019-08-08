@@ -1,0 +1,15 @@
+.wp-block-custom-features-block {
+  .gb-features-block > .editor-inner-blocks, .gb-features-block > .editor-inner-blocks > .editor-block-list__layout {
+    display: grid;
+    grid-template-columns: inherit;
+    grid-column-gap: 5%;
+    grid-row-gap: 6em;
+    align-items: center;
+  }
+
+.block-list-appender {
+  width: 250px;
+  margin: 0 auto;
+}
+
+}

@@ -1,0 +1,17 @@
+/**
+ * Don't edit this file. Find all style at ./sass folder.
+ **/
+.wp-block-custom-features-block .gb-features-block > .editor-inner-blocks, .wp-block-custom-features-block .gb-features-block > .editor-inner-blocks > .editor-block-list__layout {
+  display: grid;
+  grid-template-columns: inherit;
+  grid-column-gap: 5%;
+  grid-row-gap: 6em;
+  align-items: center;
+}
+
+.wp-block-custom-features-block .block-list-appender {
+  width: 250px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=edit.css.map */
