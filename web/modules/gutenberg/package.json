@@ -12,6 +12,6 @@
     "build": "./node_modules/.bin/drupal-js-build --css"
   },
   "devDependencies": {
-    "drupal-js-build": "^1.1.1"
+    "drupal-js-build": "^1.3.0"
   }
 }
